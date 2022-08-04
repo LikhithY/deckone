@@ -138,17 +138,22 @@ button {
 /* mobile ratio */
 @media (max-width: 990px) {
   h1 {
-    font-size: 4.9rem;
+    font-size: 5.6rem;
+    padding-bottom: 2%;
   }
 
   .container-fluid {
-    padding: 3% 8% 12%;
+    padding: 3% 6% 12%;
   }
 
   .hero {
     visibility: hidden;
   }
-
+  
+  .three {
+  padding-bottom: 2%;
+  }
+  
   .threelogos {
     padding: 0 14%;
   }
