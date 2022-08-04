@@ -1,0 +1,184 @@
+body {
+  background-color: #FAF3E3;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4.0rem;
+  line-height: 1.2;
+}
+
+p {
+  color: grey;
+}
+
+button {
+  width: 130px;
+  height: 48px;
+}
+
+/* part-1 css starts */
+.navbar {
+  padding-bottom: 12%;
+}
+
+.navbar-brand {
+  color: grey;
+  font-weight: bold;
+}
+
+.freeButton {
+  background-color: #1A4D2E;
+  color: white;
+  border-radius: 5px;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-weight: 600;
+}
+
+.container-fluid {
+  padding: 3% 10% 12%;
+}
+
+.sign {
+  margin-top: 4px;
+}
+
+.freetext {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* toggleMenu */
+.menu {
+  position: absolute;
+  top: 32%;
+  left: 20%;
+  background: #fff;
+  width: 450px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: 0.5s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.menu.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 90px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+.menu h6 {
+  width: 100%;
+  margin-bottom: 2px;
+  padding: 20px 13px 2px 20px;
+}
+
+.menu h6 p {
+  font-weight: normal;
+  padding-left: 7%;
+}
+
+/* part 1 css ends */
+/* part-2 css starts */
+.heading {
+  color: #FF9F29;
+}
+
+.hero {
+  position: absolute;
+  width: 25%;
+  right: 10%;
+  top: 29%;
+}
+
+.SubText {
+  color: grey;
+}
+
+.downbutton {
+  margin-bottom: 7%;
+}
+
+.iconspace {
+  margin-left: 2%;
+}
+
+.iconspace:hover {
+  color: black;
+}
+
+/* part-2 css ends */
+/* part-3 css starts */
+.three {
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+.companies {
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+/* part-3 css ends */
+/* toggleMenu for ipad ratio */
+/* mobile ratio */
+@media (max-width: 990px) {
+  h1 {
+    font-size: 4.9rem;
+  }
+
+  .container-fluid {
+    padding: 3% 8% 12%;
+  }
+
+  .hero {
+    visibility: hidden;
+  }
+
+  .threelogos {
+    padding: 0 14%;
+  }
+
+  .companies {
+    margin-left: 7%;
+    margin-top: 3%;
+  }
+
+  .menu {
+    position: absolute;
+    top: 16%;
+    left: 18%;
+    background: #fff;
+    width: 450px;
+    box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .menu::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: -5px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    transform: rotate(45deg);
+  }
+}
