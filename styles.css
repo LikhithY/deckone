@@ -136,7 +136,7 @@ button {
 /* part-3 css ends */
 /* toggleMenu for ipad ratio */
 /* mobile ratio */
-@media (max-width: 412px) {
+@media (max-width: 990px) {
   h1 {
     font-size: 5.6rem;
     padding-bottom: 2%;
